@@ -4,14 +4,24 @@
 {% endblock %}
 
 {% block body %}
-<div class="jumbotron jumbotron-fluid bg-light">
-    <div class="row">
-        <div class="card">
-            <div class="card-header">
-                <h1>Search Result For </h1>
+<!--<div class="jumbotron jumbotron-fluid bg-light">-->
+    <div class="row pt-sm-5">
+        <div class="card text-warning">
+            <div class="card-body">
+                <h1 class="card-title">Search Result For <!--{{search result}}--></h1>
+                <table class="table-sm table-dark">
+                    <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                </table>
             </div>
         </div>
 
     </div>
-</div>
+<!--</div>-->
 {% endblock %}

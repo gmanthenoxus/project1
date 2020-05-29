@@ -34,6 +34,14 @@ def login():
 def signup():
     return render_template("signup.html")
 
+@app.route("/search")
+def search():
+    return render_template("search.html")
+
+@app.route("/result")
+def result():
+    return render_template("result.html")
+
 if __name__ == "__main__":
     app.debug = False
     app.run()

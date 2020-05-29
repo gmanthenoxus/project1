@@ -4,5 +4,69 @@
 {% endblock %}
 
 {% block body %}
+<div>
+    <div class="card pt-sm-5 text-warning bg-dark">
+        <div class="card-title">
+            <h1>BOOK TITLE</h1>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Description lists</dt>
+                <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+              
+                <dt class="col-sm-3">Euismod</dt>
+                <dd class="col-sm-9">
+                  <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                  <p>Donec id elit non mi porta gravida at eget metus.</p>
+                </dd>
+              
+                <dt class="col-sm-3">Malesuada porta</dt>
+                <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+              
+                <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+              
+                <dt class="col-sm-3">Nesting</dt>
+                <dd class="col-sm-9">
+                  <dl class="row">
+                    <dt class="col-sm-4">Nested definition list</dt>
+                    <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+                  </dl>
+                </dd>
+              </dl>
+
+              <div class="row align-items-center justify-content-center pt-sm-5">
+                <div class="col">
+                    <form action=" align-items-center justify-content-center">
+                        <div class="form-group">
+                            <i class="fa fa-envelope fa-2x text-warning"></i>
+                            <input type="email" class="form-control"  placeholder="EMAIL ADDRESS">
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-lock fa-3x text-warning"></i>
+                            <input type="password" class="form-control "  placeholder="PASSWORD">
+                        </div>
+                        <div class="row form-group justify-content-center">
+                            <button type="submit" class="btn btn-outline-warning">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+    <div class="pt-sm-5">
+        <h4>COMMENTS</h4>
+        <div class="card bg-dark text-warning mb-3">
+            <div class="card-header  border-light">Name</div>
+            <div class="card-body text-success">
+              <h5 class="card-title">Comment Title</h5>
+              <p class="card-text">The comment entred</p>
+            </div>
+            <div class="card-footer bg-dark border-light">Time</div>
+          </div>
+    </div>
+</div>
 
 {% endblock %}
