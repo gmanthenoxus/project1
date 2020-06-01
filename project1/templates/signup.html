@@ -10,18 +10,18 @@
             <div class="card-body">
                 <h3 class="text-center text-warning"><i class="fa fa-user fa-2x text-warning"></i> Signup:</h3>
 
-                <form action=" align-items-center justify-content-center">
+                <form action="/submits" method="POST">
                     <div class="form-group">
                         <i class="fa fa-user fa-3x text-warning"></i>
-                        <input type="text" class="form-control"  placeholder="USERNAME">
+                        <input type="text" name="username" class="form-control"  placeholder="USERNAME">
                     </div>
                     <div class="form-group">
                         <i class="fa fa-envelope fa-2x text-warning"></i>
-                        <input type="email" class="form-control"  placeholder="EMAIL ADDRESS">
+                        <input type="email" name="email" class="form-control"  placeholder="EMAIL ADDRESS">
                     </div>
                     <div class="form-group">
                         <i class="fa fa-lock fa-3x text-warning"></i>
-                        <input type="password" class="form-control "  placeholder="PASSWORD">
+                        <input type="password"  name="password"class="form-control "  placeholder="PASSWORD">
                     </div>
                     <div class="row form-group justify-content-center">
                         <button type="submit" class="btn btn-outline-warning">Submit</button>
