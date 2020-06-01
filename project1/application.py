@@ -48,6 +48,15 @@ def submit():
         print(email, password)
         return render_template("search.html")
 
+@app.route("/submits", methods=['POST'])
+def submits():
+    if request.method == 'POST':
+        username = request.form['username']
+        email = request.form['email']
+        password = request.form['password']
+        print(email, password)
+        return render_template("index.html")
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
