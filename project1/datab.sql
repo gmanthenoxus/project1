@@ -17,7 +17,7 @@ CREATE TABLE "review"(
     "user_id" INTEGER NOT NULL,
     "books_id" INTEGER NOT NULL,
     "comment" VARCHAR NOT NULL,
-    "" VARCHAR NOT NULL,
+    "rating" VARCHAR NOT NULL,
     FOREIGN KEY("") REFERENCES ""
     FOREIGN KEY("") REFERENCES ""
 )
